@@ -1,0 +1,13 @@
+.expenses {
+    background-color: rgb(52, 48, 79);
+    width: 60vw;
+    max-width: 95%;
+    margin: 4px auto;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.no-data-text {
+    color: white;
+    text-align: center;
+}

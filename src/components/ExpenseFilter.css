@@ -1,0 +1,14 @@
+.expense-filter {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.options {
+    width: 8rem;
+    height: 2rem;
+    border-radius: 8px;
+}

@@ -1,0 +1,9 @@
+.expense-form {
+    background-color: rgb(52, 48, 79);
+    width: 60vw;
+    max-width: 95%;
+    margin: 10px auto 0 auto;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
