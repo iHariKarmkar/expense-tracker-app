@@ -1,6 +1,7 @@
 .form-controls {
     display: flex;
     flex-wrap: wrap;
+    width: 60vw;
     gap: 1rem;
     margin-bottom: 1rem;
     text-align: left;
@@ -9,11 +10,11 @@
 .form-control input {
     outline: none;
     height: 30px;
-    width: 20rem;
+    width: 15rem;
     max-width: 100%;
     padding: 8px;
     margin: 0;
-    background-color: rgb(220, 184, 255);
+    background-color: rgb(241, 227, 255);
     border-radius: 8px;
 }
 
@@ -38,4 +39,10 @@ button:hover {
 
 .form-control-action {
     text-align: right;
+}
+
+@media (max-width: 600px) {
+    .form-control input {
+        width: auto;
+    }
 }

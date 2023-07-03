@@ -7,3 +7,10 @@
     border-radius: 8px;
     text-align: center;
 }
+
+@media (max-width: 600px) {
+    .expense-form {
+        width: 100%;
+    }
+
+  }

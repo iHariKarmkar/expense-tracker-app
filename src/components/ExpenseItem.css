@@ -57,3 +57,14 @@
     color: rgb(228, 221, 251);
     font-size: 1.5rem;
 }
+
+@media (max-width: 600px) {
+    .expense_title {
+        font-size: 1rem;
+    }
+
+    .expense_amount {
+        font-size: 1rem;
+    }
+
+  }

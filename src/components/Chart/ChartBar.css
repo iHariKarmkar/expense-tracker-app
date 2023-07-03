@@ -29,3 +29,14 @@
     font-size: 0.5rem;
     text-align: center;
   }
+
+  @media (max-width: 600px) {
+    .chart-bar {
+      width: 10px;
+    }
+    .chart-bar__label {
+      margin-top: 3px;
+      transform: rotate(-45deg);
+    }
+
+  }

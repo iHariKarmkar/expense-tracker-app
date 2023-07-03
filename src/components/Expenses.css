@@ -11,3 +11,10 @@
     color: white;
     text-align: center;
 }
+
+@media (max-width: 600px) {
+    .expenses {
+        width: 100%;
+    }
+
+  }
