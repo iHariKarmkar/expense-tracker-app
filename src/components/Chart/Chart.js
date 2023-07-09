@@ -5,6 +5,7 @@ import './Chart.css';
 const Chart = (props) => {
     const chartDataValues = props.chartData.map((data) => data.value)
     const totalMax = Math.max(...chartDataValues);
+    console.log(chartDataValues)
   return (
     <div className="chart">
       {props.chartData.map((item) => (
